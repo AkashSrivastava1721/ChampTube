@@ -31,7 +31,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Link: https://drive.google.com/file/d/1Vnp93qogEruFfQsVGEnYHH03oe52umJ5/view?usp=sharing
 
 ## NetifyApp: 
-https://relaxed-curie-6d0a33.netlify.app/home
+https://relaxed-curie-6d0a33.netlify.app
 
 ## HerukoApp:
 https://champtube.herokuapp.com/upload
