@@ -31,9 +31,22 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Link: https://drive.google.com/file/d/1Vnp93qogEruFfQsVGEnYHH03oe52umJ5/view?usp=sharing
 
 ## NetifyApp: 
-https://relaxed-curie-6d0a33.netlify.app
+https://objective-hamilton-f47edd.netlify.app/
 
 ## HerukoApp:
 https://champtube.herokuapp.com/upload
 
+## Features Implemnted:
+1. Signup
+2. Signin
+3. When u signin 2 options see the uploaded videos in dashboard link or upload videos in upload in upload link
+4. homepage contains all the videos
+5. in the sidebar u will see all the videos on basis of tags
+6. connection with mongodb atlas
+7. REST API implementation on both angular and node
+8. Heroku and Netify deployment.
+
+## Features Remaining:
+1. Commit,Like and Dislike Option
+2. Search Option
 
