@@ -38,7 +38,7 @@ https://champtube.herokuapp.com/upload
 
 ## Features Implemnted:
 1. Signup
-2. Signin
+2. Signin, Authentication
 3. When u signin 2 options see the uploaded videos in dashboard link or upload videos in upload in upload link
 4. homepage contains all the videos
 5. in the sidebar u will see all the videos on basis of tags
@@ -47,6 +47,6 @@ https://champtube.herokuapp.com/upload
 8. Heroku and Netify deployment.
 
 ## Features Remaining:
-1. Commit,Like and Dislike Option
+1. Comment,Like and Dislike Option
 2. Search Option
 
