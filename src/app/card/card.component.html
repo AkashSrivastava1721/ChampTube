@@ -1,0 +1,20 @@
+<div *ngFor="let c of apidata" style="display: inline-block">
+    <mat-card style="background-color:black;" >
+        <iframe width="350" height="250" src={{c.Link}}
+        frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+        <br>
+        <mat-card style="background-color:red;">
+            <a href="{{c.Link}}">Link</a>
+            <br>
+            <p>{{c.Email}}</p>
+            <p>{{c.Description}}</p>
+            <p>{{c.Hashtag}}</p>
+        </mat-card>
+        <form action="">
+            <input matInput type="text" placeholder="Comment">
+            <button mat-raised button type="submit" style="background-color: red;">Like</button>
+            <button mat-raised button type="submit" style="background-color: red;">disLike</button>
+        </form>
+    </mat-card>
+</div>

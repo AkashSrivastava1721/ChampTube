@@ -1,0 +1,13 @@
+<h1>Change Password</h1>
+<div fxLayoutAlign="center center" fxFlexFill >
+    <mat-card style="background-color:black;">
+        <form fxLayoutAlign="stretch" fxLayout="column">
+            <mat-form-field >
+              <input matInput type="email" placeholder="Email" formControlName="Email">
+            </mat-form-field>
+            <button mat-raised-button type="submit" style="background-color: red;">Reset Password</button>
+        </form>
+        <a routerLink="/signin">Login</a>
+    </mat-card>
+</div>
+<router-outlet></router-outlet>

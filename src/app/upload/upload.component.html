@@ -1,0 +1,27 @@
+<h1>Upload the Content</h1>
+<div fxLayoutAlign="center center" fxFlexFill>
+  <mat-card style="background-color:black;">
+      <form fxLayoutAlign="stretch" fxLayout="column" [formGroup]="formGroup" (ngSubmit)="loginProcess()">
+          <mat-form-field >
+            <input matInput type="text" placeholder="Email" formControlName="Email">
+          </mat-form-field>
+          <mat-form-field >
+            <input matInput type="text" placeholder="Title" formControlName="Title">
+          </mat-form-field>
+          <mat-form-field >
+            <input matInput type="text" placeholder="Description" formControlName="Description">
+          </mat-form-field>
+          <mat-form-field >
+            <input matInput type="text" placeholder="Gender" formControlName="Gender">
+          </mat-form-field>
+          <mat-form-field >
+            <input matInput type="text" placeholder="Hashtag" formControlName="Hashtag">
+          </mat-form-field>
+          <mat-form-field >
+            <input matInput type="text" placeholder="Link" formControlName="Link">
+          </mat-form-field>
+          <button mat-raised-button type="submit" style="background-color: red;">Upload</button>
+      </form>
+  </mat-card>
+</div>
+

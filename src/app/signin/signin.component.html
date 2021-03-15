@@ -1,0 +1,17 @@
+<h1>Let's sign in!</h1>
+<div fxLayoutAlign="center center" fxFlexFill >
+    <mat-card style="background-color:black;">
+        <form fxLayoutAlign="stretch" fxLayout="column" [formGroup]="formGroup" (ngSubmit)="loginProcess()">
+            <mat-form-field >
+              <input matInput type="email" placeholder="Email" formControlName="Email">
+            </mat-form-field>
+            <br>
+            <mat-form-field >
+                <input matInput type="password" placeholder="Passcode" formControlName="Passcode">
+              </mat-form-field>
+            <button mat-raised-button type="submit" style="background-color: red;">SignIn</button>
+        </form>
+        <a routerLink="/forgetpass" style="align-self: center;">Forget Password</a>
+    </mat-card>
+</div>
+<router-outlet></router-outlet>

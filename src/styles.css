@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+body
+{
+    margin-left: 190px;
+    background-color:aqua;
+}
+.frm
+{
+    padding: 10;
+    background-color:black;
+    color:white;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 40px;
+    text-align: justify;
+}
+.sbmt
+{
+    background-color:black;
+    text-align: center;
+    color:white;
+}
+h1
+{
+    background-color:black;
+    text-align: center;
+    color:white;
+}
+.footer
+{
+    margin-top: 400px;
+    text-align: center;
+    background-color:black;
+    color:white;
+}
+.hcard
+{
+    margin-left: 200px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
