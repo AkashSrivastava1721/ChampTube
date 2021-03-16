@@ -38,8 +38,8 @@ https://champtube.herokuapp.com/upload
 
 ## Features Implemnted:
 1. Signup
-2. Signin, Authentication
-3. When u signin 2 options see the uploaded videos in dashboard link or upload videos in upload in upload link
+2. Signin, Authentication, JWT Token
+3. When u signin 2 options see the uploaded videos in dashboard link or you can upload videos in upload in upload link
 4. homepage contains all the videos
 5. in the sidebar u will see all the videos on basis of tags
 6. connection with mongodb atlas
@@ -49,4 +49,5 @@ https://champtube.herokuapp.com/upload
 ## Features Remaining:
 1. Comment,Like and Dislike Option
 2. Search Option
+3. Views
 
